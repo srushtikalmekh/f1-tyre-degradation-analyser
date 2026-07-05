@@ -1,7 +1,5 @@
 # F1 Tyre Degradation Analyser
-
-Analyses real Formula 1 timing data to study how tyre performance
-degrades across race stints and compares driver strategies.
+Analyses real Formula 1 timing data to study how tyre performance degrades across race laps and compares driver strategies.
 
 ## Race Analysed
 2023 Bahrain Grand Prix
@@ -17,6 +15,9 @@ Drivers analysed: Verstappen, Leclerc, Hamilton, Sainz, Alonso
 - Analyses full field pit stop strategies across 19 drivers
 - Compares Red Bull vs Ferrari hard tyre pace with trend lines
 - Generates Hard and Soft tyre degradation charts for all drivers
+
+# Platform used
+- Pycharm
 
 ## Tools used
 Python, FastF1, pandas, matplotlib, numpy
@@ -41,12 +42,10 @@ Python, FastF1, pandas, matplotlib, numpy
 ### Key Finding
 Verstappen degraded his Hard tyres 8x slower than Leclerc in the
 same race under identical conditions, while also lapping faster overall.
-This demonstrates elite tyre management visible directly in timing data.
+This demonstrates elite tyre management visible directly in timing data which can also explains how he must've won the race.
 
 ### Pit Stop Strategy Insight
-Norris (NOR) ran 5 pit stops — the most aggressive strategy in the
-race, cycling through all compounds. Multiple drivers pitted on lap 41
-simultaneously, suggesting a Virtual Safety Car period made stops free.
+Norris  ran 5 pit stops — the most aggressive strategy in the race, cycling through all compounds. Multiple drivers pitted on lap 41 simultaneously, suggesting a Virtual Safety Car period made stops free.
 
 ## Race Result — Top 3
 | Position | Driver | Team |
@@ -88,12 +87,9 @@ simultaneously, suggesting a Virtual Safety Car period made stops free.
 ![Team Comparison](team_comparison_hard_tyre.png)
 
 ## Why this matters for F1
-Tyre degradation rate is a core input into race strategy decisions —
-determining pit stop windows, stint lengths, and compound selection.
-This project replicates the post-race tyre performance analysis
-conducted by F1 strategy engineers after every grand prix.
+Tyre degradation rate is a core input into race strategy decisions —determining pit stop windows, stint lengths, and compound selection.
+This project replicates the post-race tyre performance analysis conducted by F1 strategy engineers after every grand prix.
 
 ## About
-Built as part of my pathway toward F1 engineering.
-Mechanical Engineering student — AISSMS COE, Pune
-Winner — Smart India Hackathon 2025
+Built as part of my pathway towards becoming a  F1 engineering.
+Mechanical Engineering student, second year — AISSMS COE, Pune
