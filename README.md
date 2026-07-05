@@ -3,7 +3,6 @@ Analyses real Formula 1 timing data to study how tyre performance degrades acros
 
 ## Race Analysed
 2023 Bahrain Grand Prix
-Drivers analysed: Verstappen, Leclerc, Hamilton, Sainz, Alonso
 
 ## What the project does
 - Downloads official F1 lap timing data using the FastF1 Python library
