@@ -91,4 +91,3 @@ This project replicates the post-race tyre performance analysis conducted by F1 
 
 ## About
 Built as part of my pathway towards becoming a  F1 engineering.
-Mechanical Engineering student, second year — AISSMS COE, Pune
